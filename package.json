@@ -1,0 +1,24 @@
+{
+  "name": "grsi_html",
+  "version": "1.0.0",
+  "description": "Porjeto das aulas de GRSI",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rodrigo-Serpa/grsi_html.git"
+  },
+  "author": "Rodrigo Serpa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rodrigo-Serpa/grsi_html/issues"
+  },
+  "homepage": "https://github.com/Rodrigo-Serpa/grsi_html#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7"
+  }
+}
