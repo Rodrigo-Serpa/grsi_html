@@ -36,42 +36,56 @@
 </header>
 <body>
 
-<!--Start of the page-->
 
-
-
-
-
-  <!-- menu comida -->
-
-
-  <div class="card-group">
-    <div class="card">
-      <img class="card-img-top" src="frango.jpeg" alt="Card image cap" width="400" height="400">
-      <div class="card-body">
-        <h5 class="card-title">Prato de frango</h5>
-        <p class="card-text">1 dose de frango grelhado acompanahado com salada.</p>
-        <p class="card-text"><small class="text-muted">Preço: 12€</small></p>
+  <form>
+    <div class="form-group row">
+      <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
       </div>
     </div>
-    <div class="card">
-      <img class="card-img-top" src="massa.jpg" alt="Card image cap" width="400" height="400">
-      <div class="card-body">
-        <h5 class="card-title">Prato de Massa.</h5>
-        <p class="card-text">Prato italianao de massa e especiarias.</p>
-        <p class="card-text"><small class="text-muted">Preço: 10€</small></p>
+    <fieldset class="form-group">
+      <div class="row">
+        <legend class="col-form-label col-sm-2 pt-0">Qauntas pessoas</legend>
+        <div class="col-sm-10">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+            <label class="form-check-label" for="gridRadios1">
+              1 pessoa
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+            <label class="form-check-label" for="gridRadios2">
+              2 pessoas
+            </label>
+          </div>
+          <div class="form-check disabled">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" >
+            <label class="form-check-label" for="gridRadios3">
+              3 ou mais pessoas
+            </label>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+    <div class="form-group row">
+      <div class="col-sm-2">Checkbox</div>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck1">
+          <label class="form-check-label" for="gridCheck1">
+            Crianças?
+          </label>
+        </div>
       </div>
     </div>
-    <div class="card">
-      <img class="card-img-top" src="prato_de_peixe.jpg" alt="Card image cap" width="400" height="400">
-      <div class="card-body">
-        <h5 class="card-title">Prato de peixe</h5>
-        <p class="card-text">Prato de peixe acompanhado com salada</p>
-        <p class="card-text"><small class="text-muted">Preço: 15€</small></p>
+    <div class="form-group row">
+      <div class="col-sm-10">
+        <button type="submit" class="btn btn-primary">Reservar</button>
       </div>
     </div>
-  </div>
-
+  </form>
 
 </body>
 
@@ -85,6 +99,7 @@
     </a>
     <ul class="nav col-md-4 justify-content-end">
       <li class="nav-item"><a href="/public/index.html" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="reservas.html" class="nav-link px-2 text-muted">Reserve ja a sua maesa.</a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contato: +351 967 356 386</a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Email: restauranteacores@iol.com</a></li>
     </ul>
